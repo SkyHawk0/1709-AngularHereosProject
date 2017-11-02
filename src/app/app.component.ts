@@ -7,8 +7,9 @@ export class Hero{
 }
 
 /*
+* Decorator = Annotation
 *Component Decorator:
-* requires a selector and template/templateUrl
+* requires a selector (Element to attach to) and template/templateUrl (template means html)
 */
 @Component({
   selector: 'app-root',
